@@ -15,6 +15,7 @@ body {
     center
     flex-end */
   justify-content: flex-end;
+  background-color: rgb(89, 46, 109);
 }
 
 .nav ul {
@@ -58,6 +59,7 @@ body {
   padding: 15px;
   text-transform: capitalize;
   font-size: 16px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -132,10 +134,27 @@ hr {
   margin-bottom: 20px;
 }
 
+.header-button {
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
 .link-portafolio {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #c42c2c;
+  transition: 0.8s;
+}
+
+.header-button:hover {
+  background-color: rgb(55, 25, 68);
+  transition: 00.8s;
 }
 
 .link-portafolio:hover {
