@@ -73,6 +73,7 @@
     border-radius: 6px;
     width: 70%;
     margin-left: 12px;
+    font-family: "inconsolata", monospace;
   }
 
   .logo-container {
@@ -94,19 +95,19 @@
   }
 
   .variable {
-      color: purple;
+      color: rgb(238, 188, 50);
       font-weight: 600;
       padding: 0;
   }
 
   .llave {
-      color: yellow;
+      color: rgb(255, 74, 74);
       font-weight: 600;
       padding: 0;
   }
 
   .console {
-      color: cyan;
+      color: rgb(31, 163, 14);
       font-weight: 600;
       padding: 0;
   }
