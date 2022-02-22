@@ -62,7 +62,7 @@ nav{
 
 }
 .nav-links li a:hover {
-  color: #61DAFB;
+  color: #8261fb;
 }
 .nav-links li {
   position: relative;
@@ -72,7 +72,7 @@ nav{
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #61DAFB;
+  background-color: #8261fb;
   position: absolute;
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
@@ -100,8 +100,8 @@ nav{
 }
 .join-button{
   color: #131418;
-  background-color: #61DAFB;
-  border: 1.5px solid #61DAFB;
+  background-color: #8261fb;
+  border: 1.5px solid #8261fb;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   font-size: 1rem;
