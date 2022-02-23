@@ -292,6 +292,12 @@ body {
         }
       }
       /*verificar reto */
+      .button-free:hover {
+        color: rgb(80, 7, 46);
+        background-color: darkorchid;
+        opacity: 0.5;
+        cursor: pointer;
+      }
       .button-pink:hover {
         opacity: 0.5;
         cursor: pointer;
