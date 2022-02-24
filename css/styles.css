@@ -63,6 +63,7 @@ nav{
 }
 .nav-links li a:hover {
   color: #8261fb;
+  transition: all ease-in-out 250ms;
 }
 .nav-links li {
   position: relative;
@@ -72,7 +73,6 @@ nav{
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #8261fb;
   position: absolute;
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
@@ -83,8 +83,8 @@ nav{
 
 /*Styling Buttons*/
 .login-button{
-  background-color: transparent;
-  border: 1.5px solid #f2f5f7;
+  background-color: #8261fb;
+  border: 1.5px solid #8261fb;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   margin-left: 2vw;

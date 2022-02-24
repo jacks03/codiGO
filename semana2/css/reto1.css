@@ -28,7 +28,7 @@
   nav{
     height: 6rem;
     width: 100vw;
-    background-color: rgb(55, 25, 68);
+    background-color: #000000;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -63,7 +63,7 @@
   
   }
   .nav-links li a:hover {
-    color: #8261fb;
+    color: #892afd;
   }
   .nav-links li {
     position: relative;
@@ -73,7 +73,7 @@
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #8261fb;
+    background-color: #892afd;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -85,6 +85,7 @@
   /*Styling Buttons*/
   .login-button{
     background-color: transparent;
+    color: #d1daff;
     border: 1.5px solid #f2f5f7;
     border-radius: 2em;
     padding: 0.6rem 0.8rem;
@@ -95,7 +96,7 @@
   }
   .login-button:hover {
     color: #131418;
-    background-color: #f2f5f7;
+    background-color: #892afd;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;
   }
