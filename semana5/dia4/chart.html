@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<header class="header">
+    <nav>
+      <div class="logo">
+          <img src="/imagenes/halo.jpg" alt="Logo Image">
+      </div>
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><button class="login-button" href="#">Login</button></li>
+          <li><button class="join-button" href="#">Join</button></li>
+      </ul>
+  </nav>
+  </header>
+<body>
+    <h1>usando chart JS</h1>
+    <hr>
+    <h2>grafico de barras</h2>
+    <canvas id="bar-chart"></canvas>
+    <h2>grafico de donas</h2>
+    <canvas id="doughnut-chart"></canvas>
+    <h2>grafico lineal</h2>
+    <canvas id="lineal-chart"></canvas>
+    <h2>Grifico bubble</h2>
+    <canvas id="bubble-chart"></canvas>
+    <h2>grafico Polar Chart</h2>
+    <canvas id="polar-chart"></canvas>
+    <h2>radar chart</h2>
+    <canvas id="radar-chart"></canvas>
+    <h2>scatter chart</h2>
+    <canvas id="scatter-chart"></canvas>
+    <!--recordemos que charsis solo muestra graficos en 2d-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
