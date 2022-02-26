@@ -200,6 +200,8 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
+/*separacion*/
+
 .banner {
   height: 80vh;
   display: flex;
@@ -237,12 +239,20 @@ nav{
 }
 
 .section-works {
-  max-width: 800px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
   display: flex;
+  padding: 2%;
 }
 
 .card div .img1 {

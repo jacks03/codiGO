@@ -201,10 +201,14 @@
   .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
   }
+
+
+  /* card*/
   .card {
     width: 300px;
     background-color: hsl(267, 85%, 5%);
     border-radius: 14px;
+    margin: 3%;
   }
   
   .card-foto {
