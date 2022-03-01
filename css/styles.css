@@ -5,7 +5,7 @@
 
 body {
   font-family: "Heebo", sans-serif;
-  background-color: rgb(159, 77, 197);
+  background-color: #fab557;
   color: #fff;
 }
 
@@ -27,7 +27,7 @@ body {
 nav{
   height: 6rem;
   width: 100vw;
-  background-color: rgb(55, 25, 68);
+  background-color: #61441c;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   position: fixed;
@@ -59,10 +59,9 @@ nav{
   text-decoration: none;
   margin: 0 0.7vw;
   color: #fff;
-
 }
 .nav-links li a:hover {
-  color: #8261fb;
+  color: #fab557;
   transition: all ease-in-out 250ms;
 }
 .nav-links li {
@@ -83,8 +82,8 @@ nav{
 
 /*Styling Buttons*/
 .login-button{
-  background-color: #8261fb;
-  border: 1.5px solid #8261fb;
+  background-color: #fab557;
+  border: 1.5px solid #fab557;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   margin-left: 2vw;
@@ -100,17 +99,17 @@ nav{
 }
 .join-button{
   color: #131418;
-  background-color: #8261fb;
-  border: 1.5px solid #8261fb;
+  background-color: #fab557;
+  border: 1.5px solid #fab557;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   font-size: 1rem;
   cursor: pointer;
 }
 .join-button:hover {
-  color: #f2f5f7;
-  background-color: transparent;
-  border:1.5px solid #f2f5f7;
+  color: #694c22;
+  background-color: #ffd8a1;
+  border:1.5px solid #694c22;
   transition: all ease-in-out 350ms;
 }
 
