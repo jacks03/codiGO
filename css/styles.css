@@ -252,6 +252,7 @@ nav{
 .card {
   display: flex;
   padding: 2%;
+  background-color: #fab557;
 }
 
 .card div .img1 {
@@ -336,6 +337,6 @@ hr {
 }
 
 .link-portafolio:hover {
-  color: #ffdaaf;
+  color: #a75a02;
   text-decoration: underline;
 }
