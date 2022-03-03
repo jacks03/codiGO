@@ -1,0 +1,12 @@
+body {
+    font-family: 'Supermercado One', cursive;
+    background-color: firebrick;
+}
+
+section {
+    color: white;
+}
+
+.bg-blue-dark {
+    background-color: rgb(34, 50, 107);
+}
