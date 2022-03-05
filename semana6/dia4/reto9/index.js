@@ -1,12 +1,14 @@
 const containerJobs = document.querySelector("#container-jobs");
 
-//vamos a hacer in cambioo, para poder reutilizar la funcion renderJobs, hare que como parametro reciba el
-//arrray de objetos
+// vamos a hacer un cambio, para poder reutilizar la funcion renderJobs, hare que como parametro reciba el
+// array de objetos
+
 const renderJobs = (arrayObjectJobs) => {
-  conttainerJobs.innerHTML = "";
-  //! y luego
-  //!como estamos recibiendo el array de objetos
-  jobs.map((job) => {
+  // Esto esta indicando que como primer paso limpie el contenedor
+  containerJobs.innerHTML = "";
+  //! y luego haga el nuevo render de los elementos
+  //! como estamos recibiendo el array de objetos como parametro tengo que usar ese parametro en vez de jobs
+  arrayObjectJobs.map((job) => {
     const html = `
     <section class="card">
         <div class="column-1">
@@ -56,22 +58,20 @@ const renderJobs = (arrayObjectJobs) => {
 const selectLanguage = document.querySelector("#select-languages");
 // recuerden para los selects debemos utilizar el evento onchange
 selectLanguage.onchange = function (event) {
-  const techFilter = event.target.value
-  
-  //el reto es poder obtener el lenguaje y poder filtrar y obtener solo los trabajos que corresponda
-  //? como la funcion renderJobs recibe como parametro un arraydeobjetos es lo que debemos
-  //?generar una vez hecho el filtro
-  const newJobs = jobs.filter(job =>job.languages.includes(techFilter) || job.tools.includes(techFilter))
-  renderJobs(newJobs)
-  //?para que no esto funcion bien yo debo decirle la funcion renderrJobs que cada vez
-  //? que lo invoque primero limpie el contenedor y luego haga  el render el array de objetos
+  const techFilter = event.target.value;
+
+  // el reto es poder obtener el lenguaje y poder filtrar y obtener solo los trabajos que corresponda
+  //? Como la funcion renderJobs recibe como parametro un arraydeobjetos es lo que debemos
+  //? generar una vez hecho el filtro
+  const newJobs = jobs.filter(
+    (job) =>
+      job.languages.includes(techFilter) || job.tools.includes(techFilter)
+  );
+  renderJobs(newJobs);
+  //? Para que no esto funcion bien yo debeo decirle a la funcion renderJobs que cada vez
+  //? que la invoque primero limpie el contenedor y luego haga el render el array de objetos
 };
 
 //! que le pasamos a renderJobs?
-//jobs este siendo importado desde el archivo jobs.js
+//jobs esta siendo importando desde el archivo jobs.js
 renderJobs(jobs);
-
-// son 9 retos que hemos en clase
-// + 1 pokedex
-// + 1 star wars
-// + 1 su portafolio
