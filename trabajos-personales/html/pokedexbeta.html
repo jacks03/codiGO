@@ -11,17 +11,40 @@
 <link rel="stylesheet" href="../css/pokedexbeta.css">
 </head>
 <body>
+    <header class="header">
+        <nav>
+          <div class="logo">
+              <img src="/imagenes/halo.jpg" alt="Logo Image">
+          </div>
+          <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+          <ul class="nav-links">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/semana4/dia5/docs.html">list js</a></li>
+              <li><a href="/semana5/dia4/chart.html">charts</a></li>
+              <li><a href="./trabajos-personales/html/pokedexbeta.html">pokedexbeta</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><button class="login-button" href="#">Login</button></li>
+              <li><button class="join-button" href="#">Join</button></li>
+          </ul>
+      </nav>
+      </header>
+      <section class="pokedex">
     <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" name="pokemon" autocomplete="off">
+        <input type="text" name="pokemon" placeholder="ingrese el nombre o numero" autocomplete="off">
     </form>
     <div data-poke-card class="poke-card">
         <div data-poke-name>Pokedex</div>
         <div data-poke-img-container class="img-container">
             <img data-poke-img class="poke-img" src="../img/poke-shadow.png"/>
         </div>
-        <div data-poke-id></div>
+        <div data-poke-id></div>+
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
     <script src="../js/pokedexbeta.js"></script>
+</section>
 </body>
 </html>
