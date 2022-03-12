@@ -10,6 +10,8 @@
   "author": "kjaris alfaro",
   "license": "ISC",
   "dependencies": {
-    "date-format": "^4.0.4"
+    "cors": "^2.8.5",
+    "date-format": "^4.0.4",
+    "express": "^4.17.3"
   }
 }
